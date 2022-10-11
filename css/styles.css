@@ -158,12 +158,12 @@ img {
 .contact-item {
   display: flex;
   gap: 10px;
-  fill:#757575
+  fill: #757575;
 }
 
 .contact-item:hover,
 .contact-item:focus {
-  fill:#2196f3;
+  fill: #2196f3;
 }
 
 .header-item {
@@ -310,15 +310,14 @@ img {
   text-align: center;
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-  0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-  0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-job {
   line-height: calc(19 / 16);
   color: var(--grey-cl);
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 /* company sections */
@@ -343,22 +342,18 @@ img {
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
 }
 
-.company-link:hover,
-.company-link:focus{
-  border: 1px solid #2196F3;
-}
-
-.company-icon {
+.company-link {
   fill: #afb1b8;
 }
-
-.company-icon:hover,
-.company-icon:focus {
+.company-link:hover,
+.company-link:focus {
   fill: #2196f3;
+  border: 1px solid #2196f3;
 }
+
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!Footer section!!!!!!!!!! 
@@ -371,11 +366,7 @@ img {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap:70px;
-}
-
-.footer-container {
-  display:flex;
+  gap: 70px;
 }
 
 .footer-logo {
@@ -445,9 +436,8 @@ img {
 .btn-portfolio-dark-current {
   color: var(--white-cl);
   background-color: var(--accent-txt-cl);
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-      0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-      0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .name-sites {
@@ -466,11 +456,8 @@ img {
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .portfolio-item:hover {
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-      0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-      0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(238, 238, 238, 1);
 }
-
 
 .wrapper {
   padding: 20px 24px;
@@ -546,8 +533,8 @@ fill:#757575;
   margin-bottom: 20px;
 }
 
-.contactus-container {
+.footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: center;
+  gap: 70px;
 }
